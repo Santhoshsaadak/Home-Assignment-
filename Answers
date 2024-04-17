@@ -18,5 +18,8 @@ Docker
    EXPOSE 80
 3)
 4)Docker Image is an executable package of software that includes everything needed to run an application. This image informs how a container should instantiate, determining which software components will run and how. Docker Container is a virtual environment that bundles application code with all the dependencies required to run the application. The application runs quickly and reliably from one computing environment to another.
-5)sudo docker logs <container>
+5)Docker logs held in /var/lib/docker/container syntax- sudo docker logs <container>
+Kubernets 
+1)
+2)
 
