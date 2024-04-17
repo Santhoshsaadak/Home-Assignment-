@@ -21,5 +21,8 @@ Docker
 5)Docker logs held in /var/lib/docker/container syntax- sudo docker logs <container>
 Kubernets 
 1)
-2)
+2)The basic scheduling unit in Kubernetes is a Pod. A Pod is the smallest deployable unit in the Kubernetes ecosystem, representing one or more tightly coupled containers that share the same network namespace and can communicate with each other using localhost.
+3)
+
+
 
