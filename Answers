@@ -1,4 +1,4 @@
-1) mkdir -p /home/user/tree/fruit
+1) mkdir -p /home/user/tree/fruit  consider tree as parent directory and fruit as child directory 
 2)
 3)
 4)
