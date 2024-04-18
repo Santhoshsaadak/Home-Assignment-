@@ -21,7 +21,7 @@ Docker
   RUN apt-get install -y python
   # Expose to port
    EXPOSE 80
-3)
+3)The Docker lifecycle refers to the various stages a Docker container goes through from its creation to its deletion.stages are as follows Creation, Running, Stop, Restart ,Paused, Unpaused, Remove container.
 4)Docker Image is an executable package of software that includes everything needed to run an application. This image informs how a container should instantiate, determining which software components will run and how. Docker Container is a virtual environment that bundles application code with all the dependencies required to run the application. The application runs quickly and reliably from one computing environment to another.
 5)Docker logs held in /var/lib/docker/container syntax- sudo docker logs <container>
 Kubernets 
