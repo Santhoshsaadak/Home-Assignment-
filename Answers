@@ -7,7 +7,7 @@ ssh-keygen -t rsa
 cp authorized_keys authorized_keys_Backup
 ssh <username>@<host>
 4)ps-A show all the running process with process ID
-5)
+5)find /path/directory -type f -mtime +x -exec rm
 6)
 Docker
 1)Docker is a containerization platform that allows developers to package applications and their dependencies into lightweight containers, which can then be easily deployed and scaled on any platform. This makes it easier for teams to build, test, and deploy applications consistently across different environments.
