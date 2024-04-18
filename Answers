@@ -6,7 +6,7 @@ chmod 700 ~/.ssh
 ssh-keygen -t rsa
 cp authorized_keys authorized_keys_Backup
 ssh <username>@<host>
-4)
+4)ps-A show all the running process with process ID
 5)
 6)
 Docker
