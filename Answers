@@ -1,5 +1,5 @@
 1) mkdir -p /home/user/tree/fruit  consider tree as parent directory and fruit as child directory 
-2)
+2)Offline install of a package can be done in various ways. first we should have downloaded package in offline then install that with package management tools like dpkg or yum.
 3) Through SSH Authentication we can access from one srever to another. 
 mkdir ~/.ssh
 chmod 700 ~/.ssh
