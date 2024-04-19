@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: new-pod
-spec:
-  containers:
-  - name: new-container
-    image: postgres:latest
-    restartPolicy: Always
