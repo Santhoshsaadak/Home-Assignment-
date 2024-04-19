@@ -11,27 +11,7 @@ ssh <username>@<host>
 6)
 Docker
 1)Docker is a containerization platform that allows developers to package applications and their dependencies into lightweight containers, which can then be easily deployed and scaled on any platform. This makes it easier for teams to build, test, and deploy applications consistently across different environments.
-2)# Base image
-   FROM python:3.9-slim
-  # Working directory 
-   WORKDIR /app
-  # Copy Custom image to container 
-   COPY requirements.txt
-  # Install and Run all dependencies 
-  RUN pip install --no-cache-dir-r requirements.txt
-  # Expose to port
-   EXPOSE 5000
-# app.py - a minimal flask api using flask_restful
-from flask import Flask
-from flask_restful import Resource, Api
-app = Flask(__name__)
-api = Api(app)
-class HelloWorld(Resource):
-    def get(self):
-        return {'hello': 'world'}
-api.add_resource(HelloWorld, '/')
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+2) Dockerfile 
 3)The Docker lifecycle refers to the various stages a Docker container goes through from its creation to its deletion.stages are as follows Creation, Running, Stop, Restart ,Paused, Unpaused, Remove container.
 4)Docker Image is an executable package of software that includes everything needed to run an application. This image informs how a container should instantiate, determining which software components will run and how. Docker Container is a virtual environment that bundles application code with all the dependencies required to run the application. The application runs quickly and reliably from one computing environment to another.
 5)Docker logs held in /var/lib/docker/container syntax- sudo docker logs <container>
