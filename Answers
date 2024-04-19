@@ -18,15 +18,7 @@ Docker
 Kubernets 
 1)The services available in Kubernets are a) Cluster IP b) Nodeport c)Load Balancer d) Ingress 
 2)The basic scheduling unit in Kubernetes is a Pod. A Pod is the smallest deployable unit in the Kubernetes ecosystem, representing one or more tightly coupled containers that share the same network namespace and can communicate with each other using localhost.
-3)apiVersion: v1
-kind: Pod
-metadata:
-  name: new-pod
-spec:
-  containers:
-  - name: new-container
-    image: postgres:latest
-    restartPolicy: Always
+3)In Pod.yaml
 4)In yaml file
 CI/CD
 1)In Github file
